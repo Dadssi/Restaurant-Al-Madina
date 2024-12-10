@@ -235,17 +235,29 @@ footer {
   }
   
   .card-back {
-    background: #e65100;
+    /* background: #e65100; */
+    /* background-image: url(../imgs/clients/client-1.png); */
+    /* filter: blur(5px); */
     color: #fff;
     transform: rotateY(180deg);
     padding: 20px;
     text-align: center;
+    position: absolute;
   }
   
   .card-back blockquote {
+    position: relative;
+    z-index: 100;
     font-size: 1.1rem;
     font-style: italic;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    border-radius: 5px;
+  }
+  #img-holder{
+    position: absolute;
+    filter: blur(5px);
   }
 
   /* Section Styling */
@@ -322,4 +334,9 @@ footer {
       transform: translateY(0);
     }
   }
+
+  @media (max-width: 768px) {
+    
+}
+
   
