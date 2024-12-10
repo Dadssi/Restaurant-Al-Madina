@@ -57,24 +57,10 @@ nav {
     color: #e65100;
 }
 
-#test{
-    background-image: url(../assets/imgs/catalogue/05.jpg);
-    /* filter: blur(5px); */
-    /* filter: hue-rotate(90deg); */
-    /* filter: blur(5px); */
-    /* filter: blur(5px); */
-    /* filter: blur(5px); */
-    /* filter: blur(5px); */
-    /* filter: blur(5px); */
-    /* filter: blur(5px); */
-
-}
-
 /* Carousel */
 .carousel-container {
     margin-top: 70px;
     height: 800px;
-    /* position: relative; */
     overflow: hidden;
 }
 
@@ -198,13 +184,13 @@ footer {
   
   /* Testimonial Card */
   .testimonial-card {
-    perspective: 1000px; /* Permet de créer un effet 3D */
+    perspective: 1000px;
   }
   
   .card-inner {
     position: relative;
     width: 100%;
-    padding-top: 100%; /* Maintient un rapport 1:1 pour les cartes */
+    padding-top: 100%;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
     transition: transform 0.8s ease;
@@ -283,9 +269,6 @@ footer {
   .about-content h2 {
     font-size: 3rem;
     margin-bottom: 20px;
-    background: linear-gradient(to right, #013162, #20043d);
-    -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
     animation: glow-text 3s infinite;
   }
   
